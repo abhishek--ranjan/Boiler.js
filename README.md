@@ -162,6 +162,8 @@ Boiler.js ships with a small, opinionated standard library:
 
 UI code must not call browser APIs directly.
 
+**CORS Note:**
+Cross-Origin Resource Sharing (CORS) is not handled by Boiler.js. All cross-origin requests must be allowed by your backend server via proper CORS headers. The framework does not bypass or manage CORS; it is a browser and server-level security feature. Ensure your backend is configured to allow requests from your frontend origin as needed.
 
 
 ## CSS strategy
