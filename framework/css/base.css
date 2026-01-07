@@ -1,0 +1,44 @@
+ :root {
+  --boiler-font-family: 'Segoe UI', Arial, sans-serif;
+  --boiler-text-color: #111;
+  --boiler-bg-color: #fff;
+  --boiler-accent-color: #1f6feb;
+  --boiler-border-color: #d0d7de;
+  --boiler-radius: 4px;
+  --boiler-spacing: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--boiler-font-family);
+  color: var(--boiler-text-color);
+  background: var(--boiler-bg-color);
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.container {
+  width: min(960px, 100%);
+  margin: 0 auto;
+  padding: var(--boiler-spacing);
+}
+
+.grid {
+  display: grid;
+  gap: var(--boiler-spacing);
+}
+
+.flex {
+  display: flex;
+  gap: var(--boiler-spacing);
+}
