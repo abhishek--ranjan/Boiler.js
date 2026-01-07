@@ -262,7 +262,7 @@ This project optimizes for trust, not churn.
 **v0.3**
 - Role-based access helpers
 - Router guards
-- Tooling improvements (optional)
+- Tooling improvements 
 
 
 
